@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  flyway:
+    container_name: flyway
+    image: flyway/flyway
+    restart: always
+    volumes:
+      - ./data/flyway/project:/flyway/project
+      - ./data/flyway/sql:/flyway/sql
+    command: -configFiles=/flyway/project/flyway-target.toml migrate  # Запуск миграций на старте
+    networks:
+      - main
+    entrypoint: /bin/sh -c "sleep infinity"
+
+networks:
+  main:
+    external: true
