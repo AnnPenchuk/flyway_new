@@ -8,10 +8,14 @@ services:
     volumes:
       - ./data/flyway/project:/flyway/project
       - ./data/flyway/sql:/flyway/sql
-    command: -configFiles=/flyway/project/flyway-target.toml migrate  # Запуск миграций на старте
+    command: flyway -configFiles=/flyway/project/flyway-target.toml migrate  # Запуск миграций на старте
     networks:
       - main
-    entrypoint: /bin/sh -c "sleep infinity"
+    entrypoint: >
+      /bin/sh -c "
+      sleep 30;
+      flyway -configFiles=/flyway/project/flyway-target.toml migrate;
+      "
 
 networks:
   main:
