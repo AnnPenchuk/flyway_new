@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  gpdb:
+    container_name: gp_target
+    image: biwed/gp-pxf:6.11.1
+    restart: always
+    ports:
+      - "25432:5432"
+    environment:
+      GP_DB: target_dev
+      GP_USER: admin
+      GP_PASSWORD: password
+    volumes:
+      - ./data/greenplum/servers:/usr/local/greenplum-db/pxf/pxf-conf/servers
+      - gp_target_data:/data1
+    networks:
+      - main
+
+volumes:
+  gp_target_data:
+
+networks:
+  main:
+    external: true

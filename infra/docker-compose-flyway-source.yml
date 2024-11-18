@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  flyway:
+    container_name: source_flyway
+    image: flyway/flyway
+    restart: always
+    volumes:
+      - ./data/flyway/project/source:/flyway/project/source
+      - ./data/flyway/sql/source:/flyway/sql/source
+    networks:
+      - main
+    entrypoint: >
+      /bin/sh -c "
+      sleep 30;
+      flyway -configFiles=/flyway/project/source/flyway-source.toml migrate;
+      "
+
+networks:
+  main:
+    external: true
