@@ -8,7 +8,6 @@ services:
     volumes:
       - ./data/flyway/project:/flyway/project
       - ./data/flyway/sql:/flyway/sql
-    command: flyway -configFiles=/flyway/project/flyway-target.toml migrate  # Запуск миграций на старте
     networks:
       - main
     entrypoint: >
