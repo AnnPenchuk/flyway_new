@@ -6,8 +6,8 @@ services:
     image: flyway/flyway
     restart: always
     volumes:
-      - ./data/flyway/project/source:/flyway/project/source
-      - ./data/flyway/sql/source:/flyway/sql/source
+      - ../flyway/project/source:/flyway/project/source
+      - ../flyway/sql/source:/flyway/sql/source
     networks:
       - main
     entrypoint: >

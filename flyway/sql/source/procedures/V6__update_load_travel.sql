@@ -72,5 +72,5 @@ WHERE
     tr.airport_arrivals = cte2."name_"
     AND tr.code_arrival is NULL;
 end;
-$$language plpgsql;
-call qa_data_platform.travel();
+$$ LANGUAGE plpgsql;
+CALL qa_data_platform.travel();

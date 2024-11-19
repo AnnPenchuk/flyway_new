@@ -35,13 +35,15 @@
 
 Развернуть контейнер с flyway для postgres:
 
-  docker compose -f docker-compose-flyway-source.yml up -d
+  docker compose -f docker-compose-flyway-source.yml up
 
 Развернуть контейнер с flyway для greenplum:
 
-  docker compose -f docker-compose-flyway-target.yml up -d
+  docker compose -f docker-compose-flyway-target.yml up 
 
 Для запуска миграций вручную:
   docker exec -it source_flyway flyway -configFiles=/flyway/project/source/flyway-source migrate
   docker exec -it target_flyway flyway -configFiles=/flyway/project/target/flyway-target migrate
 
+ДЛЯ БЫСТРОГО ЗАПУСКА:
+ make all

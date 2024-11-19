@@ -1,0 +1,2 @@
+[sqlfluff]
+dialect = postgres  # Указываем диалект для PostgreSQL и Greenplum

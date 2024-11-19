@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "new-flyway"
+version = "0.1.0"
+description = ""
+authors = ["AnnPenchuk <annapenchuk95@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlfluff = "^3.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
