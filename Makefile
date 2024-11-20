@@ -1,14 +1,3 @@
-create_env:
-	python -m .venv
-	.venv\Scripts\activate
-
-poetry:
-	pip install poetry
-	poetry init
-
-sqlfluff:
-	poetry add sqlfluff
-
 lint:
 	sqlfluff lint ./flyway/sql/**/*.sql --dialect postgres
 
@@ -27,4 +16,3 @@ migrate_target:
 
 all: up_source up_target migrate_source migrate_target
 
-all_set: create_env poetry sqlfluff lint up_source up_target migrate_source migrate_target

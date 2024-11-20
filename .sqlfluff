@@ -1,2 +1,8 @@
 [sqlfluff]
-dialect = postgres  # Указываем диалект для PostgreSQL и Greenplum
+dialect = postgres
+
+[sqlfluff:flyway/sql/source]
+dialect = postgres
+
+[sqlfluff:flyway/sql/target]
+dialect = greenplum
