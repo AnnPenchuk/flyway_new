@@ -46,4 +46,10 @@
   docker exec -it target_flyway flyway -configFiles=/flyway/project/target/flyway-target migrate
 
 ДЛЯ БЫСТРОГО ЗАПУСКА:
+для запуска поочередно всех контейнеров
  make all
+
+для выполнения всех первоначальных настроек (включая создание виртуального окружения, установку poetry и линтинг sql файлов)
+ make all_set
+
+для выполнения отдельных команд ознакомьтесь с makefile

@@ -26,3 +26,5 @@ migrate_target:
 
 
 all: up_source up_target migrate_source migrate_target
+
+all_set: create_env poetry sqlfluff lint up_source up_target migrate_source migrate_target
