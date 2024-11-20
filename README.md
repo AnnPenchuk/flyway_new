@@ -11,8 +11,8 @@
 Пути к папке с toml и папке с миграциями sql
 
   volumes:
-      - ./data/flyway/project/target:/flyway/project/target
-      - ./data/flyway/sql/target:/flyway/sql/target
+      - ../flyway/project/target:/flyway/project/target
+      - ../flyway/sql/target:/flyway/sql/target
 Команда для запуска миграций в файле docker-compose-flyway-target.yml, для второго файла аналогично:
 
   entrypoint: >
