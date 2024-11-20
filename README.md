@@ -1,6 +1,7 @@
 Конфигурации Docker Compose для источника(postgres) и приемника(greenplum)
   
   docker-compose-source.yml 
+
   docker-compose-target.yml
 
 Конфигурации Docker Compose с flyway для создания структуры базы данных
