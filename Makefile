@@ -1,6 +1,6 @@
 create_env:
-	python -m venv .venv
-	.\.venv\Scripts\activate
+	python -m .venv
+	.venv\Scripts\activate
 
 poetry:
 	pip install poetry
@@ -25,4 +25,4 @@ migrate_target:
 	docker-compose -f infra/docker-compose-flyway-target.yml up
 
 
-all: create_env poetry sqlfluff lint up_source up_target migrate_source migrate_target
+all: up_source up_target migrate_source migrate_target
