@@ -1,0 +1,8 @@
+CREATE USER admin WITH PASSWORD 'password';
+
+
+CREATE DATABASE source_dev
+WITH
+OWNER = admin
+ENCODING = 'UTF8'
+TEMPLATE template1;
