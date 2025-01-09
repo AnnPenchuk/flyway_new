@@ -1,0 +1,18 @@
+<configuration>
+  <property>
+    <name>jdbc.driver</name>
+    <value>org.postgresql.Driver</value>
+  </property>
+  <property>
+    <name>jdbc.url</name>
+    <value>jdbc:postgresql://rc1c-zf27zhv3bvv5cm0c.mdb.yandexcloud.net:6432/DemoDB</value>
+  </property>
+  <property>
+    <name>jdbc.user</name>
+    <value>admin-smartintegrator</value>
+  </property>
+  <property>
+    <name>jdbc.password</name>
+    <value>asm3xW3lcU87n</value>
+  </property>
+</configuration>

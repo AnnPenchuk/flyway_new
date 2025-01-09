@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27ea41eb-777a-4c14-a341-82045c962fa7" name="Changes" comment="add target n">
+      <change afterPath="$PROJECT_DIR$/flyway/sql/source/tables/V7__create_test.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/data/greenplum/servers/default/conect.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/data/greenplum/servers/pg_server/pg_server-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flyway/sql/target/schemas/tables/V3__createtables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/flyway/sql/target/schemas/tables/V3__createtables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flyway/sql/target/schemas/tables/V4__createods.sql" beforeDir="false" afterPath="$PROJECT_DIR$/flyway/sql/target/schemas/tables/V4__createDV.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AnnPenchuk&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AnnPenchuk/new_flyway.git&quot;,
+    &quot;accountId&quot;: &quot;88c63133-dd5d-4328-8217-09aab3d4f0c9&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2otEI7xetAwIbzC1x3w6Dhvkpo8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Makefile Target.migrate_source.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "data__vault",
+    "last_opened_file_path": "C:/Users/annap/Desktop/new_flyway",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\annap\Desktop\new_flyway\infra\data\greenplum\servers\default" />
+      <recent name="C:\Users\annap\Desktop\new_flyway\flyway\sql\source\tables" />
+      <recent name="C:\Users\annap\Desktop\new_flyway\flyway\sql\target\schemas\tables" />
+      <recent name="C:\Users\annap\Desktop\new_flyway\infra\data\greenplum\servers\pg_server" />
+      <recent name="C:\Users\annap\Desktop\new_flyway" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\annap\Desktop\new_flyway" />
+      <recent name="C:\Users\annap\Desktop\new_flyway\infra\data\flyway\project\target" />
+      <recent name="C:\Users\annap\Desktop\new_flyway\infra\data\flyway\project\source" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="migrate_source" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="migrate_source" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile Target.migrate_source" />
+        <item itemvalue="Makefile Target.migrate_source" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27ea41eb-777a-4c14-a341-82045c962fa7" name="Changes" comment="" />
+      <created>1731680388706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731680388706</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add target">
+      <option name="closed" value="true" />
+      <created>1734607829445</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734607829445</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add target new">
+      <option name="closed" value="true" />
+      <created>1734608495822</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734608495822</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add target n">
+      <option name="closed" value="true" />
+      <created>1734608633678</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734608633678</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".sqlfluff" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add target" />
+    <MESSAGE value="add target new" />
+    <MESSAGE value="add target n" />
+    <option name="LAST_COMMIT_MESSAGE" value="add target n" />
+  </component>
+</project>
